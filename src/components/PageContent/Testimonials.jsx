@@ -79,7 +79,7 @@ const Testimonials = () => {
                 pagination={{ clickable: true, dynamicBullets: true }}
 
                 modules={[Pagination]}
-                className="mt-8 pb-20"
+                className="mt-8 pb-20 cursor-pointer select-none"
             >
                 {testimonials.map((testimonial, index) => (
                     <SwiperSlide key={index} >
