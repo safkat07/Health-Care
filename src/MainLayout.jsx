@@ -1,4 +1,6 @@
+import Footer from "./components/Footer/Footer"
 import Banner from "./components/Header/Banner"
+import ComprehensiveCare from "./components/Header/ComprehensiveCare"
 import Navbar from "./components/Header/Navbar"
 import FAQSection from "./components/PageContent/FAQSection"
 import FirstAppointment from "./components/PageContent/FirstAppointment"
@@ -11,11 +13,13 @@ const MainLayout = () => {
         <>
             <Navbar />
             <Banner />
-            <WhoAreWe />
+            <ComprehensiveCare />
+            {/* <WhoAreWe />
             <Services />
             <Testimonials />
             <FAQSection />
             <FirstAppointment />
+            <Footer /> */}
         </>
     )
 }
