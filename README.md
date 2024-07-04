@@ -1,8 +1,22 @@
-# React + Vite
+# Health Care Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Health Care project! This project is built using React and utilizes pnpm for package management.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these steps to clone the repository and run the project on your local machine.
+
+### Prerequisites
+
+Make sure you have Node.js and pnpm installed on your machine.
+
+- **Node.js**: Install from [nodejs.org](https://nodejs.org/)
+- **pnpm**: Install using npm with `npm install -g pnpm`
+
+### Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/safkat07/Health-Care.git
+cd health-care

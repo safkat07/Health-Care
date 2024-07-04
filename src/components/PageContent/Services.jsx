@@ -12,8 +12,8 @@ const DisplayImage = ({ imgSrc, title, desc }) => {
     return (
         <div className="w-full cursor-pointer mx-auto">
             <div className="relative">
-                <img className="w-full mx-auto rounded-3xl" src={imgSrc} alt="" />
-                <div className="absolute left-10 p-5  text-white w-[300px] xl:h-[38%] xl:top-[60%] top-28  bg-[#343268] bg-opacity-90 rounded-3xl">
+                <img className="w-full mx-auto brightness-75 rounded-3xl" src={imgSrc} alt="" />
+                <div className="absolute left-10 p-5  text-white w-[300px] xl:h-[38%] xl:top-[55%] top-28  bg-[#343268] bg-opacity-90 rounded-3xl">
                     <p className="text-2xl text-nowrap font-medium">
                         {title}
                     </p>
@@ -38,7 +38,7 @@ const Services = () => {
                     <SmallHeadingText smallTitle={"Service"} />
                     <HeadingText text={"Empowering Health, Enriching Lives"} />
                     <PragraphText pragraphText={"We are committed to providing high-quality, compassionate care to every patient we serve. Whatever your healthcare needs may be, you can trust us to be your partner in health and wellness."} />
-                    <Button className={" px-5   py-2 bg-yellow-300 border-none font-medium "} btnText={"Apointment"} />
+                    <Button className={" px-5 primaryColor   py-2 bg-yellow-300 border-none font-medium "} btnText={"Appointment"} />
                 </div>
                 <DisplayImage imgSrc={img1} title={"Advanced Technology"} desc={"Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision"} />
                 <DisplayImage imgSrc={img2} title={"Online Doctor Meet"} desc={"Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision"} />
