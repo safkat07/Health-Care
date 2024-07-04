@@ -20,3 +20,15 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/safkat07/Health-Care.git
 cd health-care
+
+
+Install all the dependencies
+
+```bash
+pnpm install
+
+run the project
+
+```bash
+pnpm run dev
+
