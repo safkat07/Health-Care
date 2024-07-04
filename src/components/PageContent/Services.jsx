@@ -13,8 +13,8 @@ const DisplayImage = ({ imgSrc, title, desc }) => {
         <div className="w-full cursor-pointer mx-auto">
             <div className="relative">
                 <img className="w-full mx-auto rounded-3xl" src={imgSrc} alt="" />
-                <div className="absolute left-10 p-5  text-white w-1/2 h-1/3 top-[60%]  bg-[#343268] bg-opacity-90 rounded-3xl">
-                    <p className="text-2xl font-medium">
+                <div className="absolute left-10 p-5  text-white w-[300px] xl:h-[38%] xl:top-[60%] top-28  bg-[#343268] bg-opacity-90 rounded-3xl">
+                    <p className="text-2xl text-nowrap font-medium">
                         {title}
                     </p>
                     <div className=" flex items-end">
@@ -33,7 +33,7 @@ const DisplayImage = ({ imgSrc, title, desc }) => {
 const Services = () => {
     return (
         <ContentWrapper className={"bg-[#FFFFF5] rounded-3xl min-h-screen "}>
-            <div className="grid gap-10 w-full grid-cols-2 py-10 ">
+            <div className="grid gap-10 w-full lg:grid-cols-2 grid-cols-1 py-10 ">
                 <div className="flex items-start flex-col gap-y-7">
                     <SmallHeadingText smallTitle={"Service"} />
                     <HeadingText text={"Empowering Health, Enriching Lives"} />

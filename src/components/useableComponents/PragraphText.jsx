@@ -1,7 +1,7 @@
 
 const PragraphText = ({ pragraphText }) => {
     return (
-        <p className="w-3/4 leading-normal text-lg text-justify">
+        <p className="xl:w-3/4 leading-normal  text-lg text-justify">
             {pragraphText}
         </p>
     )

@@ -38,7 +38,7 @@ const FAQSection = () => {
                 <SmallHeadingText className={""} smallTitle={"Faq"} />
                 <HeadingText text={"Frequently Asked Questions"} />
             </div>
-            <Accordion className="text-2xl py-5" type="single" collapsible>
+            <Accordion className="text-2xl primaryColor py-5" type="single" collapsible>
                 {faqs.map((faq) => (
                     <AccordionItem key={faq.id} value={faq.id}>
                         <AccordionTrigger>{faq.question}</AccordionTrigger>

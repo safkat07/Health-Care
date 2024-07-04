@@ -12,16 +12,16 @@ const Navbar = () => {
         </>
     )
     return (
-        <nav className='sticky z-[99] sm:py-5 py-2.5 bg-white/20 backdrop-blur-lg inset-x-0 top-0'>
+        <nav className='sticky z-[1000] w-full sm:py-5 py-2.5 bg-white/20 backdrop-blur-lg inset-x-0 top-0'>
             <ContentWrapper className={" flex items-center justify-between"}>
                 <div className='cursor-pointer'>
                     <img src={logo} alt="" />
                 </div>
-                <div className='lg:flex hidden font-medium  gap-x-5 text-xl'>
+                <div className='lg:flex hidden font-medium  primaryColor gap-x-5 text-xl'>
                     {navLinks}
                 </div>
                 <div className='lg:block hidden'>
-                    <Button className={"text-xl px-5 py-3   font-medium"} btnText={"Appointment"} />
+                    <Button className={"text-xl px-5 py-3 primaryColor   font-medium"} btnText={"Appointment"} />
                 </div>
                 <div className='lg:hidden block '>
                     Menu

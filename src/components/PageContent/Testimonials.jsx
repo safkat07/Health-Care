@@ -84,7 +84,7 @@ const Testimonials = () => {
                 {testimonials.map((testimonial, index) => (
                     <SwiperSlide key={index} >
                         <div className="bg-[#FFFFF5] rounded-lg gap-y-5 px-10 py-6 h-full text-start flex justify-between flex-col">
-                            <p className="text-2xl text-ellipsis w-3/4 font-medium text-left" >{testimonial.heading}</p>
+                            <p className="xl:text-2xl text-xl text-wrap text-ellipsis xl:w-3/4 xl:text-start font-medium text-left" >{testimonial.heading}</p>
                             <p className="leading-snug line-clamp-4">{testimonial.text}</p>
 
                             <div className='flex justify-start gap-x-2 items-center'>

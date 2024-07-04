@@ -14,16 +14,16 @@ import client4 from '../../assets/clientImg4.jpeg'
 const ComprehensiveCare = () => {
     return (
         <ContentWrapper className={"py-16"}>
-            <div className="size-full flex flex-row justify-between items-end gap-x-5">
-                <div className='  text-[#020043] flex flex-col gap-y-5 p-3.5 rounded-3xl bg-[#FBFBFB]'>
+            <div className="size-full flex  justify-between items-end xl:gap-x-5 lg:gap-x-10">
+                <div className=' w-fit  text-[#020043] shrink flex flex-col gap-y-5 p-3.5 rounded-3xl bg-[#FBFBFB]'>
                     <div>
-                        <p className='text-5xl font-medium'>90%</p>
-                        <p className='pt-2 w-3/4'>Patient satisfaction <br /> rate, reflecting our commitment.</p>
+                        <p className='text-5xl xl:w-auto lg:w-full  font-medium'>90%</p>
+                        <p className='pt-2 xl:w-3/4'>Patient satisfaction rate, reflecting our commitment.</p>
                     </div>
                     <img className='w-3/4 m-auto' src={pie} alt="" />
                 </div>
                 <div className='flex flex-col w-full gap-y-10 justify-center items-center'>
-                    <p className='text-5xl text-[#020043] w-2/3 font-bold text-center mx-auto'>Comprehensive Care for Every Patient</p>
+                    <p className='text-5xl text-[#020043] xl:w-2/3  font-bold text-center mx-auto'>Comprehensive Care for Every Patient</p>
                     <div className="flex justify-center items-end gap-x-5">
                         <div className="bg-[#f5f5f0] flex-grow flex flex-col justify-end relative px-5 pt-14 pb-5 rounded-3xl">
                             <p className="text-5xl font-medium">500+</p>
@@ -55,11 +55,10 @@ const ComprehensiveCare = () => {
                     </div>
 
                 </div>
-                <div className='   text-[#020043] p-3.5 rounded-3xl flex flex-col gap-y-10 bg-[#FBFBFB]'>
+                <div className='shrink   text-[#020043] p-3.5 rounded-3xl flex flex-col gap-y-10 bg-[#FBFBFB]'>
                     <div>
                         <p className='text-5xl font-medium'>50+</p>
-                        <p className='pt-2 w-3/4'>Free lession video <br />
-                            for patient</p>
+                        <p className='pt-2 w-3/4'>Free lession video for patient</p>
                     </div>
                     <img className='w-3/4 m-auto' src={videoChat} alt="" />
 

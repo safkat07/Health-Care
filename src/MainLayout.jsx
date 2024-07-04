@@ -12,14 +12,16 @@ const MainLayout = () => {
     return (
         <>
             <Navbar />
-            <Banner />
-            <ComprehensiveCare />
-            {/* <WhoAreWe />
+            <div className="bg-gradient-to-t from-white via-blue-100 to-white">
+                <Banner />
+                <ComprehensiveCare />
+            </div>
+            <WhoAreWe />
             <Services />
             <Testimonials />
             <FAQSection />
             <FirstAppointment />
-            <Footer /> */}
+            <Footer />
         </>
     )
 }
