@@ -3,6 +3,7 @@ import pie from '../../assets/pie-chart.png'
 import contact from '../../assets/contract.png'
 import star from '../../assets/star.png'
 import coin from '../../assets/coin.png'
+import videoChat from '../../assets/video-chat.png'
 
 import client1 from '../../assets/client1.jpg'
 import client2 from '../../assets/client2.jpg'
@@ -14,9 +15,11 @@ const ComprehensiveCare = () => {
     return (
         <ContentWrapper className={"py-16"}>
             <div className="size-full flex flex-row justify-between items-end gap-x-5">
-                <div className='  text-[#020043] p-3.5 rounded-3xl bg-[#FBFBFB]'>
-                    <p className='text-5xl font-medium'>90%</p>
-                    <p className='pt-2 w-3/4'>Patient satisfaction rate, reflecting our commitment.</p>
+                <div className='  text-[#020043] flex flex-col gap-y-5 p-3.5 rounded-3xl bg-[#FBFBFB]'>
+                    <div>
+                        <p className='text-5xl font-medium'>90%</p>
+                        <p className='pt-2 w-3/4'>Patient satisfaction <br /> rate, reflecting our commitment.</p>
+                    </div>
                     <img className='w-3/4 m-auto' src={pie} alt="" />
                 </div>
                 <div className='flex flex-col w-full gap-y-10 justify-center items-center'>
@@ -25,11 +28,11 @@ const ComprehensiveCare = () => {
                         <div className="bg-[#f5f5f0] flex-grow flex flex-col justify-end relative px-5 pt-14 pb-5 rounded-3xl">
                             <p className="text-5xl font-medium">500+</p>
                             <div className="flex gap-x-7">
-                                <p className="w-1/2">Board Certified Doctors</p>
+                                <p className="">Board Certified Doctors</p>
                                 <img className="w-1/3 right-0 top-20" src={contact} alt="Contact" />
                             </div>
                         </div>
-                        <div className="bg-[#f5f5f0] flex-grow shrink-0 flex flex-col justify-end relative px-5 pt-10 pb-5 rounded-3xl">
+                        <div className="bg-[#f5f5f0] flex-grow shrink-0 flex flex-col justify-end relative px-5 pt-5 pb-5 rounded-3xl">
                             <div className="flex gap-x-3.5 items-center">
                                 <p className="text-5xl font-medium">4.8</p>
                                 <img className="size-10 shrink-0" src={star} alt="Star" />
@@ -52,10 +55,13 @@ const ComprehensiveCare = () => {
                     </div>
 
                 </div>
-                <div className='     text-[#020043] p-3.5 rounded-3xl bg-[#FBFBFB]'>
-                    <p className='text-5xl font-medium'>90%</p>
-                    <p className='pt-2 w-3/4'>Patient satisfaction rate, reflecting our commitment.</p>
-                    <img className='w-3/4 m-auto' src={pie} alt="" />
+                <div className='   text-[#020043] p-3.5 rounded-3xl flex flex-col gap-y-10 bg-[#FBFBFB]'>
+                    <div>
+                        <p className='text-5xl font-medium'>50+</p>
+                        <p className='pt-2 w-3/4'>Free lession video <br />
+                            for patient</p>
+                    </div>
+                    <img className='w-3/4 m-auto' src={videoChat} alt="" />
 
                 </div>
             </div>
