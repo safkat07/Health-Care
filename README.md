@@ -23,12 +23,8 @@ cd health-care
 
 
 Install all the dependencies
-
-```bash
 pnpm install
 
 run the project
-
-```bash
 pnpm run dev
 
